@@ -3,7 +3,7 @@ cask "gitsocial" do
   name "gitsocial"
   desc "Git-native collaboration — posts, issues, PRs, releases, all in your repo"
   homepage "https://github.com/gitsocial-org/gitsocial"
-  version "0.1.3"
+  version "0.1.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gitsocial" do
   on_macos do
     on_intel do
       url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_darwin_amd64.tar.gz"
-      sha256 "15eb7e2cd2981a4eef064107b75eee39c8dcae0fbf6218f49b09cc51e496cdd3"
+      sha256 "bd9fc26a8b102348bbdf27899956f66323d210090567780ace76e1e78af025d9"
     end
     on_arm do
       url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_darwin_arm64.tar.gz"
-      sha256 "7607260a8f2ad8b5d65e11e8f2d4531a93febc3be98fd1a9637cc92378791367"
+      sha256 "6a247e4f6f880a1ac472cfef80d3def19dee264087f2baf1230022f6b8a827f8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_linux_amd64.tar.gz"
-      sha256 "f39ad4f1a750b01d3c0a42e6d7cdba9086dd8fd245deac40b1df7fc47272d9f5"
+      sha256 "072adb7f23643a2f9f590715d2bf6d453a9fe466c29727cf3cecd2897bc30442"
     end
     on_arm do
       url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_linux_arm64.tar.gz"
-      sha256 "1baaa0f8ff067207e835abf44a42c2fc1cb2158f48656a94b1d35eacb7f4cfe7"
+      sha256 "555f77b0374b4d8658ea5d495152075e556a59ef3f106c72db4055c840b6d764"
     end
   end
 

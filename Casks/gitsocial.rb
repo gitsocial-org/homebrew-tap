@@ -3,7 +3,7 @@ cask "gitsocial" do
   name "gitsocial"
   desc "Git-native collaboration — posts, issues, PRs, releases, all in your repo"
   homepage "https://github.com/gitsocial-org/gitsocial"
-  version "0.1.4"
+  version "0.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "gitsocial" do
 
   on_macos do
     on_intel do
-      url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_darwin_amd64.tar.gz"
-      sha256 "bd9fc26a8b102348bbdf27899956f66323d210090567780ace76e1e78af025d9"
+      url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_darwin_amd64.tar.gz"
+      sha256 "23ab2e68f7c3a4457b2480d0a68640261c95429c997beb4e419ba2c5d38199a7"
     end
     on_arm do
-      url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_darwin_arm64.tar.gz"
-      sha256 "6a247e4f6f880a1ac472cfef80d3def19dee264087f2baf1230022f6b8a827f8"
+      url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_darwin_arm64.tar.gz"
+      sha256 "6776e00524c8df4956077f22687ae9d0e064d88c48f454524d9b48e86796add0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_linux_amd64.tar.gz"
-      sha256 "072adb7f23643a2f9f590715d2bf6d453a9fe466c29727cf3cecd2897bc30442"
+      url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_linux_amd64.tar.gz"
+      sha256 "59ce7a2e8dcfc71fa0603eb5dc382e0eac934a1adb136e337d0165726bdf3d76"
     end
     on_arm do
-      url "https://github.com/max-ra-gh/gitmsg-monorepo/releases/download/v#{version}/gitsocial_#{version}_linux_arm64.tar.gz"
-      sha256 "555f77b0374b4d8658ea5d495152075e556a59ef3f106c72db4055c840b6d764"
+      url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_linux_arm64.tar.gz"
+      sha256 "0e612ef5130c7953ccb5c50f14745ebb2b937b4745926151bd63ace94b995b9a"
     end
   end
 

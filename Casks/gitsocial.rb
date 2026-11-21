@@ -2,25 +2,25 @@
 cask "gitsocial" do
   app "GitSocial.app" if OS.mac?
 
-  version "0.30.0"
+  version "0.31.0"
 
   on_macos do
     on_arm do
-      sha256 "d112e07f1b3546100bc5c747fe0f1f6e044fac8cb8e36245056ccc040eec0d11"
+      sha256 "070a6a4eb5ed66fd5d34b962bf25d99b36f3419e3fccbd3d696a3b7970f727c0"
       url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_darwin_arm64.zip"
     end
     on_intel do
-      sha256 "cdc2e8841fc026e101b7a8e5401e86072a5584aed7f97f6bf4d663cc8105dd25"
+      sha256 "5d896c3734fb2de2b7faadc676cdcb33d1a05052723e63baf40777f6d9f096c3"
       url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_darwin_amd64.zip"
     end
   end
   on_linux do
     on_arm do
-      sha256 "377ff67324447fc4be6adab2b4b5de1a663cbac075e13978ed835733bc549a6f"
+      sha256 "ac81656916723a25cfcb0e1aa4d694b04c313d47e7bf4805d8ec7a8ff94616d2"
       url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9ba019919be7f25b66ae9173e7ebe0261590e89330438ce5e2d23581755ec77e"
+      sha256 "ce8d20064f6f11d2b403f1ffa89987ac0ee9c264ce824daa5d005e9798b8b47b"
       url "https://github.com/gitsocial-org/gitsocial/releases/download/v#{version}/gitsocial_#{version}_linux_amd64.tar.gz"
     end
   end
